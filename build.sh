@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Ereating folder"
+echo "Creating folder"
 mkdir src -p
 mkdir public -p
 
