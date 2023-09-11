@@ -9,6 +9,7 @@ cp css src -r
 cp fonts src -r
 cp images src -r
 cp index.html src
+cp src/* public -r
 
 echo "Excuting minify"
 chmod +x ./minify
