@@ -12,4 +12,4 @@ cp index.html src
 
 echo "Excuting minify"
 chmod +x ./minify
-./minify -r -o public src/ --all >/dev/null 2>&1
+./minify -r -o public src/ --all --html-keep-default-attrvals >/dev/null 2>&1
